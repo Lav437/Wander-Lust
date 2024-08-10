@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container
+{
+    flex: 1;
+}
+h1
+{
+    text-align: center  ;
+}
+.navbar
+{
+    background-color:white !important;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+    margin-right: .5rem;
+}
+.f-info-links a:hover
+{
+    text-decoration: underline;
+}
+.f-info-socials,.f-info-links,.f-info-brand
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.f-info-socials i{
+    margin-right: 1.5rem;   
+    font-size: 1.6rem;
+   
+}
+
+/* .f-info-socials i:hover
+{
+    box-shadow: 3px 2px 3px gray;
+    font-size: 2rem;
+    transition: 10ms ease-in-out;
+} */
+
+
+
+.f-info{
+    height: 8rem;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+
+
+/* card */
+
+.card
+{
+    border: none;
+    margin-bottom: 2.5rem;
+    /* margin-left: 2rem; */
+
+}
+.card-img-top
+{
+    border-radius: 1rem;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body 
+{
+    padding: 0 !important;
+    margin-left: 1rem;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+img{
+    height: 20rem !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay
+{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* form heading  */
+
+
+.add-btn
+{
+    background-color: #fe424d !important;
+    border: none;
+    color: #222222 !important;
+
+}
