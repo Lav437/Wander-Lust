@@ -71,7 +71,7 @@ h1
 
 /* card */
 
-.card
+.listing-card
 {
     border: none;
     margin-bottom: 2.5rem;
@@ -118,4 +118,14 @@ img{
     border: none;
     color: #222222 !important;
 
+}
+
+/* review */
+.review-card-stars
+{
+    display: flex;
+    justify-content: space-between;
+}
+.stars{
+    color: rgb(220, 156, 7);
 }
