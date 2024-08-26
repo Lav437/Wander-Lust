@@ -129,3 +129,10 @@ img{
 .stars{
     color: rgb(220, 156, 7);
 }
+
+ /* show butn */
+
+ .btns{
+    display: flex;
+    
+ }
